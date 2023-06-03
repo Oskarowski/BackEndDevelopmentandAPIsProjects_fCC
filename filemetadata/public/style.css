@@ -1,0 +1,94 @@
+/****** Main Styling ******/
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: auto;
+  margin-top: 2vh;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #222;
+  background-color: beige;
+  text-align: center;
+  border: 1px solid goldenrod;
+  border-radius: 1em;
+  max-width: fit-content;
+}
+
+.container {
+  padding: 0;
+  margin-top: 40px;
+}
+
+a {
+  color: #2574a9;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+}
+
+input#button {
+  width: 230px;
+}
+
+input#button:hover {
+  transition: 0.2s;
+  background-color: lightgray;
+}
+
+.view {
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid goldenrod;
+  border-radius: 1em;
+  background-color: cornsilk;
+  padding: 20px;
+  width: 60%;
+  max-width: 650px;
+  min-width: 400px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+form input {
+  padding: 0.5em;
+  background-color: #ffe5c8;
+  border-radius: 1em;
+  font-weight: bold;
+}
+
+input[type="file"]::file-selector-button {
+  padding: 0.8em;
+  background-color: lightgoldenrodyellow;
+  border: 1px solid black;
+  border-radius: 1em;
+  margin-right: 2em;
+}
+
+input[type="file"]::file-selector-button:hover {
+  padding: 0.8em;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 1em;
+  margin-right: 2em;
+  transition: 0.2s;
+}
+
+#inputfield {
+  border: 1px solid black;
+}
